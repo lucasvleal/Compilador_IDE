@@ -1,0 +1,10 @@
+program a; 
+int a,b,c; 
+begin 	
+	read(a);
+	read(c);
+	b:=a+c;
+	if (a>c) then write(a);
+	else write(c);	
+	write(b)	
+end.
